@@ -74,16 +74,16 @@ div nav ul li a{
     padding: 0 25px;
 }
 
-body > div > article {
+/* body > div > article {
 
 }
-
+ */
 
 
 /* ===================== HEADER ===================== */
 
 header h2 {
-    width: 450px;
+    width: 35%;
     margin-left: 30%;
     padding: 10vh 0 15vh 0;
 }
@@ -92,7 +92,7 @@ header div {
     background-image: url("../img/section-about-1.jpg");
     background-size: cover;
     margin: 0 auto;
-    width: 80vw;
+    width: 80%;
     padding-bottom: 100vh;
 }
 
@@ -106,10 +106,10 @@ main section:nth-of-type(1) {
     padding: 10vh 0;
 }
 
-
 main section:nth-of-type(1) article:nth-of-type(1) {
     width: 49%;
     display: flex;
+    flex-wrap: wrap;
 }
 main section:nth-of-type(1) article:nth-of-type(1) img {
     margin-left: auto;    
